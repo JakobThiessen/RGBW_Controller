@@ -183,6 +183,7 @@ int8_t wifi_quality()
     {
         return -1;
     }
+    
     int32_t dBm = WiFi.RSSI();
     if (dBm <= -100)
     {
