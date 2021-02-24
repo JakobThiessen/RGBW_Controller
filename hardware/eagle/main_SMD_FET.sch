@@ -8359,32 +8359,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-0.5" y1="1.45" x2="0.5" y2="1.45" width="0.1" layer="21"/>
 <wire x1="-0.5" y1="-1.45" x2="0.5" y2="-1.45" width="0.1" layer="21"/>
 </package>
-<package name="SOP65P210X110-6N">
-<description>&lt;b&gt;DCK(R-PDSO-G6)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.1" y="0.65" dx="0.95" dy="0.45" layer="1"/>
-<smd name="2" x="-1.1" y="0" dx="0.95" dy="0.45" layer="1"/>
-<smd name="3" x="-1.1" y="-0.65" dx="0.95" dy="0.45" layer="1"/>
-<smd name="4" x="1.1" y="-0.65" dx="0.95" dy="0.45" layer="1"/>
-<smd name="5" x="1.1" y="0" dx="0.95" dy="0.45" layer="1"/>
-<smd name="6" x="1.1" y="0.65" dx="0.95" dy="0.45" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.825" y1="1.325" x2="1.825" y2="1.325" width="0.05" layer="51"/>
-<wire x1="1.825" y1="1.325" x2="1.825" y2="-1.325" width="0.05" layer="51"/>
-<wire x1="1.825" y1="-1.325" x2="-1.825" y2="-1.325" width="0.05" layer="51"/>
-<wire x1="-1.825" y1="-1.325" x2="-1.825" y2="1.325" width="0.05" layer="51"/>
-<wire x1="-0.625" y1="1" x2="0.625" y2="1" width="0.1" layer="51"/>
-<wire x1="0.625" y1="1" x2="0.625" y2="-1" width="0.1" layer="51"/>
-<wire x1="0.625" y1="-1" x2="-0.625" y2="-1" width="0.1" layer="51"/>
-<wire x1="-0.625" y1="-1" x2="-0.625" y2="1" width="0.1" layer="51"/>
-<wire x1="-0.625" y1="0.35" x2="0.025" y2="1" width="0.1" layer="51"/>
-<wire x1="-0.275" y1="1" x2="0.275" y2="1" width="0.2" layer="21"/>
-<wire x1="0.275" y1="1" x2="0.275" y2="-1" width="0.2" layer="21"/>
-<wire x1="0.275" y1="-1" x2="-0.275" y2="-1" width="0.2" layer="21"/>
-<wire x1="-0.275" y1="-1" x2="-0.275" y2="1" width="0.2" layer="21"/>
-<wire x1="-1.575" y1="1.225" x2="-0.625" y2="1.225" width="0.2" layer="21"/>
-</package>
 <package name="RESC3216X68N">
 <description>&lt;b&gt;PCS1206&lt;/b&gt;&lt;br&gt;
 </description>
@@ -8469,6 +8443,34 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-2.2" y1="-7.861" x2="-2.2" y2="-7.861" width="0.2" layer="21"/>
 <wire x1="-2.2" y1="-7.861" x2="-2.4" y2="-7.861" width="0.2" layer="21" curve="180"/>
 </package>
+<package name="SOP65P490X110-8N">
+<description>&lt;b&gt;DGK  (S-PDSO-G8)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.2" y="0.975" dx="1.4" dy="0.45" layer="1"/>
+<smd name="2" x="-2.2" y="0.325" dx="1.4" dy="0.45" layer="1"/>
+<smd name="3" x="-2.2" y="-0.325" dx="1.4" dy="0.45" layer="1"/>
+<smd name="4" x="-2.2" y="-0.975" dx="1.4" dy="0.45" layer="1"/>
+<smd name="5" x="2.2" y="-0.975" dx="1.4" dy="0.45" layer="1"/>
+<smd name="6" x="2.2" y="-0.325" dx="1.4" dy="0.45" layer="1"/>
+<smd name="7" x="2.2" y="0.325" dx="1.4" dy="0.45" layer="1"/>
+<smd name="8" x="2.2" y="0.975" dx="1.4" dy="0.45" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.15" y1="1.8" x2="3.15" y2="1.8" width="0.05" layer="51"/>
+<wire x1="3.15" y1="1.8" x2="3.15" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="3.15" y1="-1.8" x2="-3.15" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="-3.15" y1="-1.8" x2="-3.15" y2="1.8" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.85" x2="-0.85" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.15" y1="1.5" x2="1.15" y2="1.5" width="0.2" layer="21"/>
+<wire x1="1.15" y1="1.5" x2="1.15" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="1.15" y1="-1.5" x2="-1.15" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-1.15" y1="-1.5" x2="-1.15" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-2.9" y1="1.55" x2="-1.5" y2="1.55" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="EVQP7J01P">
@@ -8488,20 +8490,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-2.032" y1="2.7305" x2="-2.032" y2="3.302" width="0.1524" layer="94"/>
 <wire x1="-2.032" y1="3.302" x2="1.651" y2="3.302" width="0.1524" layer="94"/>
 <wire x1="1.651" y1="3.302" x2="1.651" y2="2.794" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="INA186A1QDCKRQ1">
-<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="REF" x="0" y="0" length="middle"/>
-<pin name="GND" x="0" y="-2.54" length="middle"/>
-<pin name="VS" x="0" y="-5.08" length="middle"/>
-<pin name="OUT" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="IN-" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="IN+" x="25.4" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 <symbol name="PCS1206DR0100ET">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
@@ -8557,6 +8545,22 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.858" y="2.032"/>
 </polygon>
 </symbol>
+<symbol name="INA301A1IDGKR">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-10.16" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="VS" x="0" y="0" length="middle"/>
+<pin name="OUT" x="0" y="-2.54" length="middle"/>
+<pin name="LIMIT" x="0" y="-5.08" length="middle"/>
+<pin name="GND" x="0" y="-7.62" length="middle"/>
+<pin name="IN+" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="IN-" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="!ALERT" x="33.02" y="-5.08" length="middle" rot="R180"/>
+<pin name="RESET" x="33.02" y="-7.62" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="EVQP7J01P" prefix="S">
@@ -8583,37 +8587,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/evq-p7j01p/panasonic"&gt; 
 <attribute name="MANUFACTURER_PART_NUMBER" value="EVQP7J01P" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="INA186A1QDCKRQ1" prefix="IC">
-<description>&lt;b&gt;Automotive, 40V, low- and high-side current sense amplifier with picoamp bias current&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.ti.com/lit/gpn/INA186-Q1"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="INA186A1QDCKRQ1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOP65P210X110-6N">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN+" pad="4"/>
-<connect gate="G$1" pin="IN-" pad="5"/>
-<connect gate="G$1" pin="OUT" pad="6"/>
-<connect gate="G$1" pin="REF" pad="1"/>
-<connect gate="G$1" pin="VS" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="INA186A1QDCKRQ1" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ina186a1qdckrq1/texas-instruments" constant="no"/>
-<attribute name="DESCRIPTION" value="Automotive, 40V, low- and high-side current sense amplifier with picoamp bias current" constant="no"/>
-<attribute name="HEIGHT" value="1.1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="INA186A1QDCKRQ1" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-INA186A1QDCKRQ1" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA186A1QDCKRQ1/?qs=Zz7%252BYVVL6bFPAZkek6GrLQ%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8724,6 +8697,39 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/dk/DKDS-30/
 <attribute name="MANUFACTURER_PART_NUMBER" value="IPD031N06L3GATMA1" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="726-IPD031N06L3GATMA" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPD031N06L3GATMA1/?qs=OwbwYO03UsJYrPy01%2FpZig%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA301A1IDGKR" prefix="IC">
+<description>&lt;b&gt;36V, Low-/High-side, Voltage Output CSA with Comparator&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/gpn/INA301"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="INA301A1IDGKR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP65P490X110-8N">
+<connects>
+<connect gate="G$1" pin="!ALERT" pad="6"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IN+" pad="8"/>
+<connect gate="G$1" pin="IN-" pad="7"/>
+<connect gate="G$1" pin="LIMIT" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="RESET" pad="5"/>
+<connect gate="G$1" pin="VS" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="INA301A1IDGKR" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ina301a1idgkr/texas-instruments" constant="no"/>
+<attribute name="DESCRIPTION" value="36V, Low-/High-side, Voltage Output CSA with Comparator" constant="no"/>
+<attribute name="HEIGHT" value="1.1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="INA301A1IDGKR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-INA301A1IDGKR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA301A1IDGKR/?qs=yajEpaT76uR6go0HjUkNgA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -9152,14 +9158,7 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="IC2" library="SamacSys_Parts" deviceset="INA186A1QDCKRQ1" device="" override_package3d_urn="urn:adsk.eagle:package:26529787/2" override_package_urn="urn:adsk.eagle:footprint:26529788/1"/>
-<part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R12" library="SamacSys_Parts" deviceset="PCS1206DR0100ET" device="" override_package3d_urn="urn:adsk.eagle:package:26539585/2" override_package_urn="urn:adsk.eagle:footprint:26539623/1"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R12" library="SamacSys_Parts" deviceset="PCS1206DR0100ET" device="" override_package3d_urn="urn:adsk.eagle:package:27074030/2" override_package_urn="urn:adsk.eagle:footprint:27074031/1"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9179,11 +9178,17 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2"/>
-<part name="Q1" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27056834/2" override_package_urn="urn:adsk.eagle:footprint:27056835/1" value="IPD031N06"/>
+<part name="Q1" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27099134/2" override_package_urn="urn:adsk.eagle:footprint:27099162/1" value="IPD031N06"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q2" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27056853/2" override_package_urn="urn:adsk.eagle:footprint:27056854/1" value="IPD031N06"/>
-<part name="Q3" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27056868/2" override_package_urn="urn:adsk.eagle:footprint:27056869/1" value="IPD031N06"/>
-<part name="Q4" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27056889/2" override_package_urn="urn:adsk.eagle:footprint:27056890/1" value="IPD031N06"/>
+<part name="Q2" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27098765/2" override_package_urn="urn:adsk.eagle:footprint:27098804/1" value="IPD031N06"/>
+<part name="Q3" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27098577/2" override_package_urn="urn:adsk.eagle:footprint:27098578/1" value="IPD031N06"/>
+<part name="Q4" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27056889/3" override_package_urn="urn:adsk.eagle:footprint:27056890/1" value="IPD031N06"/>
+<part name="IC4" library="SamacSys_Parts" deviceset="INA301A1IDGKR" device="" override_package3d_urn="urn:adsk.eagle:package:27074000/2" override_package_urn="urn:adsk.eagle:footprint:27074001/1"/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9351,33 +9356,9 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <instance part="P+1" gate="1" x="40.64" y="195.58" smashed="yes" rot="R270">
 <attribute name="VALUE" x="38.1" y="198.12" size="1.778" layer="96"/>
 </instance>
-<instance part="IC2" gate="G$1" x="185.42" y="241.3" smashed="yes" rot="MR0">
-<attribute name="NAME" x="163.83" y="248.92" size="1.778" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="163.83" y="246.38" size="1.778" layer="96" rot="MR0" align="center-left"/>
-</instance>
-<instance part="+3V2" gate="G$1" x="195.58" y="236.22" smashed="yes" rot="R270">
-<attribute name="VALUE" x="190.5" y="238.76" size="1.778" layer="96"/>
-</instance>
-<instance part="GND19" gate="1" x="187.96" y="228.6" smashed="yes">
-<attribute name="VALUE" x="185.42" y="226.06" size="1.778" layer="96"/>
-</instance>
 <instance part="R12" gate="G$1" x="66.04" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.69" y="120.65" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="62.23" y="120.65" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="R13" gate="G$1" x="195.58" y="248.92" smashed="yes">
-<attribute name="NAME" x="191.77" y="250.4186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="191.77" y="245.618" size="1.778" layer="96"/>
-</instance>
-<instance part="R14" gate="G$1" x="195.58" y="243.84" smashed="yes">
-<attribute name="NAME" x="191.77" y="245.3386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="191.77" y="240.538" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V3" gate="G$1" x="205.74" y="248.92" smashed="yes" rot="R270">
-<attribute name="VALUE" x="200.66" y="251.46" size="1.778" layer="96"/>
-</instance>
-<instance part="GND20" gate="1" x="203.2" y="233.68" smashed="yes">
-<attribute name="VALUE" x="200.66" y="231.14" size="1.778" layer="96"/>
 </instance>
 <instance part="P+2" gate="1" x="114.3" y="53.34" smashed="yes" rot="R90">
 <attribute name="VALUE" x="116.84" y="50.8" size="1.778" layer="96" rot="R180"/>
@@ -9470,6 +9451,26 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <attribute name="NAME" x="115.57" y="176.53" size="1.778" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="133.35" y="168.91" size="1.778" layer="96" rot="MR0" align="center-left"/>
 </instance>
+<instance part="IC4" gate="G$1" x="147.32" y="226.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="118.11" y="233.68" size="1.778" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="118.11" y="231.14" size="1.778" layer="96" rot="MR0" align="center-left"/>
+</instance>
+<instance part="GND24" gate="1" x="149.86" y="208.28" smashed="yes">
+<attribute name="VALUE" x="147.32" y="205.74" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="149.86" y="238.76" smashed="yes">
+<attribute name="VALUE" x="147.32" y="233.68" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C12" gate="G$1" x="160.02" y="215.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="158.496" y="215.519" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="158.496" y="220.599" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND19" gate="1" x="160.02" y="208.28" smashed="yes">
+<attribute name="VALUE" x="157.48" y="205.74" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="160.02" y="238.76" smashed="yes">
+<attribute name="VALUE" x="157.48" y="233.68" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9519,14 +9520,15 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <pinref part="IC1" gate="G$1" pin="+VOUT"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VS"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="193.04" y1="236.22" x2="185.42" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="VS"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="149.86" y1="236.22" x2="149.86" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="226.06" x2="147.32" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="248.92" x2="203.2" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="160.02" y1="236.22" x2="160.02" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -9632,18 +9634,6 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND19" gate="1" pin="GND"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
-<wire x1="187.96" y1="231.14" x2="187.96" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="238.76" x2="185.42" y2="238.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="243.84" x2="203.2" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="243.84" x2="203.2" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="144.78" y1="38.1" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -9671,10 +9661,23 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <wire x1="66.04" y1="121.92" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 <junction x="66.04" y="121.92"/>
 <wire x1="66.04" y1="129.54" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="IN-"/>
-<wire x1="160.02" y1="238.76" x2="48.26" y2="238.76" width="0.1524" layer="91"/>
 <label x="124.46" y="238.76" size="1.778" layer="95"/>
+<wire x1="106.68" y1="238.76" x2="48.26" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="129.54" x2="48.26" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="IN-"/>
+<wire x1="114.3" y1="223.52" x2="106.68" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="223.52" x2="106.68" y2="238.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="GND"/>
+<wire x1="147.32" y1="218.44" x2="149.86" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="218.44" x2="149.86" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="160.02" y1="210.82" x2="160.02" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -9926,17 +9929,16 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT"/>
-<wire x1="160.02" y1="241.3" x2="157.48" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="241.3" x2="157.48" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="190.5" x2="238.76" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="223.52" x2="208.28" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="190.5" x2="238.76" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="ADC"/>
+<pinref part="IC4" gate="G$1" pin="OUT"/>
+<wire x1="147.32" y1="223.52" x2="208.28" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="IN+"/>
-<wire x1="50.8" y1="236.22" x2="160.02" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="236.22" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="142.24" x2="119.38" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
 <junction x="101.6" y="142.24"/>
@@ -9958,18 +9960,9 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <junction x="66.04" y="139.7"/>
 <wire x1="66.04" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="132.08" x2="50.8" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="REF"/>
-<wire x1="185.42" y1="241.3" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="243.84" x2="185.42" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="248.92" x2="190.5" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="243.84" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
-<junction x="185.42" y="243.84"/>
+<pinref part="IC4" gate="G$1" pin="IN+"/>
+<wire x1="114.3" y1="226.06" x2="109.22" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="226.06" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
