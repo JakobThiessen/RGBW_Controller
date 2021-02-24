@@ -9163,7 +9163,7 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="L1" library="SamacSys_Parts" deviceset="RLS-126-R" device=""/>
+<part name="L1" library="SamacSys_Parts" deviceset="RLS-126-R" device="" override_package3d_urn="urn:adsk.eagle:package:27099534/2" override_package_urn="urn:adsk.eagle:footprint:27099535/1"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
@@ -9662,11 +9662,9 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <junction x="66.04" y="121.92"/>
 <wire x1="66.04" y1="129.54" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
 <label x="124.46" y="238.76" size="1.778" layer="95"/>
-<wire x1="106.68" y1="238.76" x2="48.26" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="129.54" x2="48.26" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="223.52" x2="48.26" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="129.54" x2="48.26" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="IN-"/>
-<wire x1="114.3" y1="223.52" x2="106.68" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="223.52" x2="106.68" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="GND"/>
@@ -9938,7 +9936,7 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 </net>
 <net name="N$7" class="0">
 <segment>
-<wire x1="50.8" y1="236.22" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="226.06" x2="114.3" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="142.24" x2="119.38" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
 <junction x="101.6" y="142.24"/>
@@ -9959,10 +9957,8 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <wire x1="66.04" y1="139.7" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
 <junction x="66.04" y="139.7"/>
 <wire x1="66.04" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="132.08" x2="50.8" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="132.08" x2="50.8" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="IN+"/>
-<wire x1="114.3" y1="226.06" x2="109.22" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="226.06" x2="109.22" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
