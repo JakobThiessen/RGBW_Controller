@@ -8350,10 +8350,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="0.85" y1="-1.45" x2="0.85" y2="-2.1" width="0.2" layer="51"/>
 <wire x1="0.85" y1="-2.1" x2="-0.85" y2="-2.1" width="0.2" layer="51"/>
 <wire x1="-0.85" y1="-2.1" x2="-0.85" y2="-1.45" width="0.2" layer="51"/>
-<wire x1="-3.6" y1="1.95" x2="3" y2="1.95" width="0.1" layer="51"/>
-<wire x1="3" y1="1.95" x2="3" y2="-2.6" width="0.1" layer="51"/>
-<wire x1="3" y1="-2.6" x2="-3.6" y2="-2.6" width="0.1" layer="51"/>
-<wire x1="-3.6" y1="-2.6" x2="-3.6" y2="1.95" width="0.1" layer="51"/>
 <wire x1="-3" y1="0.85" x2="-3" y2="0.65" width="0.2" layer="21" curve="180"/>
 <wire x1="-3" y1="0.65" x2="-3" y2="0.85" width="0.2" layer="21" curve="180"/>
 <wire x1="-0.5" y1="1.45" x2="0.5" y2="1.45" width="0.1" layer="21"/>
@@ -8387,10 +8383,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="2.25" y1="1.6" x2="2.25" y2="-1.6" width="0.2" layer="51"/>
 <wire x1="2.25" y1="-1.6" x2="-2.25" y2="-1.6" width="0.2" layer="51"/>
 <wire x1="-2.25" y1="-1.6" x2="-2.25" y2="1.6" width="0.2" layer="51"/>
-<wire x1="-3.35" y1="2.75" x2="3.35" y2="2.75" width="0.1" layer="51"/>
-<wire x1="3.35" y1="2.75" x2="3.35" y2="-2.75" width="0.1" layer="51"/>
-<wire x1="3.35" y1="-2.75" x2="-3.35" y2="-2.75" width="0.1" layer="51"/>
-<wire x1="-3.35" y1="-2.75" x2="-3.35" y2="2.75" width="0.1" layer="51"/>
 <wire x1="0" y1="1.7" x2="0" y2="1.5" width="0.1" layer="21"/>
 <wire x1="0" y1="-1.5" x2="0" y2="-1.7" width="0.1" layer="21"/>
 </package>
@@ -8410,14 +8402,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="8.29" y1="6.5" x2="8.29" y2="-2" width="0.1" layer="21"/>
 <wire x1="8.29" y1="-2" x2="-3.31" y2="-2" width="0.1" layer="21"/>
 <wire x1="-3.31" y1="-2" x2="-3.31" y2="6.5" width="0.1" layer="21"/>
-<wire x1="-4.21" y1="7.5" x2="9.39" y2="7.5" width="0.1" layer="51"/>
-<wire x1="9.39" y1="7.5" x2="9.39" y2="-3.45" width="0.1" layer="51"/>
-<wire x1="9.39" y1="-3.45" x2="-4.21" y2="-3.45" width="0.1" layer="51"/>
-<wire x1="-4.21" y1="-3.45" x2="-4.21" y2="7.5" width="0.1" layer="51"/>
-<wire x1="0" y1="-2.4" x2="0" y2="-2.4" width="0.1" layer="21"/>
-<wire x1="0" y1="-2.4" x2="0.1" y2="-2.4" width="0.1" layer="21" curve="180"/>
-<wire x1="0.1" y1="-2.4" x2="0.1" y2="-2.4" width="0.1" layer="21"/>
-<wire x1="0.1" y1="-2.4" x2="0" y2="-2.4" width="0.1" layer="21" curve="180"/>
+<wire x1="0" y1="-1.13" x2="0.1" y2="-1.13" width="0.1" layer="21" curve="180"/>
+<wire x1="0.1" y1="-1.13" x2="0" y2="-1.13" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="IPD031N06L3GATMA1">
 <description>&lt;b&gt;IPD031N06L3GATMA1-1&lt;/b&gt;&lt;br&gt;
@@ -8431,10 +8417,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="3.283" y1="2.178" x2="3.283" y2="-3.918" width="0.2" layer="51"/>
 <wire x1="3.283" y1="-3.918" x2="-3.283" y2="-3.918" width="0.2" layer="51"/>
 <wire x1="-3.283" y1="-3.918" x2="-3.283" y2="2.178" width="0.2" layer="51"/>
-<wire x1="-4.283" y1="4.2" x2="4.283" y2="4.2" width="0.1" layer="51"/>
-<wire x1="4.283" y1="4.2" x2="4.283" y2="-8.4" width="0.1" layer="51"/>
-<wire x1="4.283" y1="-8.4" x2="-4.283" y2="-8.4" width="0.1" layer="51"/>
-<wire x1="-4.283" y1="-8.4" x2="-4.283" y2="4.2" width="0.1" layer="51"/>
 <wire x1="-3.283" y1="2.139" x2="-3.283" y2="-3.918" width="0.1" layer="21"/>
 <wire x1="-3.283" y1="-3.918" x2="3.283" y2="-3.918" width="0.1" layer="21"/>
 <wire x1="3.283" y1="-3.918" x2="3.283" y2="2.178" width="0.1" layer="21"/>
@@ -9145,8 +9127,8 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <part name="FL" library="SamacSys_Parts" deviceset="EVQP7J01P" device="" override_package3d_urn="urn:adsk.eagle:package:26240006/2" override_package_urn="urn:adsk.eagle:footprint:26240007/1" override_locally_modified="yes"/>
 <part name="J4" library="SamacSys_Parts_PHOENIX" deviceset="1727078" device="" override_package3d_urn="urn:adsk.eagle:package:26529790/2" override_package_urn="urn:adsk.eagle:footprint:15226074/1"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZX84CSMD" device="" package3d_urn="urn:adsk.eagle:package:43403/2"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZX84CSMD" device="" package3d_urn="urn:adsk.eagle:package:43403/2"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZX84CSMD" device="" package3d_urn="urn:adsk.eagle:package:43403/2" value="BZX84C3V3"/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZX84CSMD" device="" package3d_urn="urn:adsk.eagle:package:43403/2" value="BZX84C3V3"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9163,11 +9145,11 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="L1" library="SamacSys_Parts" deviceset="RLS-126-R" device="" override_package3d_urn="urn:adsk.eagle:package:27099534/2" override_package_urn="urn:adsk.eagle:footprint:27099535/1"/>
+<part name="L1" library="SamacSys_Parts" deviceset="RLS-126-R" device="" override_package3d_urn="urn:adsk.eagle:package:27099534/2" override_package_urn="urn:adsk.eagle:footprint:27099535/1" override_locally_modified="yes"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4µ7"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="4µ7"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1µ"/>
-<part name="IC1" library="SamacSys_Parts" deviceset="R-78E3.3-1.0" device="" override_package3d_urn="urn:adsk.eagle:package:26628885/2" override_package_urn="urn:adsk.eagle:footprint:26628886/1"/>
+<part name="IC1" library="SamacSys_Parts" deviceset="R-78E3.3-1.0" device="" override_package3d_urn="urn:adsk.eagle:package:26628885/2" override_package_urn="urn:adsk.eagle:footprint:26628886/1" override_locally_modified="yes"/>
 <part name="IC3" library="esp-12e-f" deviceset="ESP-12E/F" device="" override_package3d_urn="urn:adsk.eagle:package:27056995/2" override_package_urn="urn:adsk.eagle:footprint:27056996/1"/>
 <part name="PROG" library="Tyco_By_element14_Batch_1" deviceset="PINHD-2X2" device="" override_package3d_urn="urn:adsk.eagle:package:27057090/2" override_package_urn="urn:adsk.eagle:footprint:27057102/1"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
@@ -9178,11 +9160,11 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2"/>
-<part name="Q1" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27099134/2" override_package_urn="urn:adsk.eagle:footprint:27099162/1" value="IPD031N06"/>
+<part name="Q1" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27099134/2" override_package_urn="urn:adsk.eagle:footprint:27099162/1" override_locally_modified="yes" value="IPD031N06"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q2" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27098765/2" override_package_urn="urn:adsk.eagle:footprint:27098804/1" value="IPD031N06"/>
-<part name="Q3" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27098577/2" override_package_urn="urn:adsk.eagle:footprint:27098578/1" value="IPD031N06"/>
-<part name="Q4" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27056889/3" override_package_urn="urn:adsk.eagle:footprint:27056890/1" value="IPD031N06"/>
+<part name="Q2" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27098765/2" override_package_urn="urn:adsk.eagle:footprint:27098804/1" override_locally_modified="yes" value="IPD031N06"/>
+<part name="Q3" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27098577/2" override_package_urn="urn:adsk.eagle:footprint:27098578/1" override_locally_modified="yes" value="IPD031N06"/>
+<part name="Q4" library="SamacSys_Parts" deviceset="IPD031N06L3GATMA1" device="" override_package3d_urn="urn:adsk.eagle:package:27056889/3" override_package_urn="urn:adsk.eagle:footprint:27056890/1" override_locally_modified="yes" value="IPD031N06"/>
 <part name="IC4" library="SamacSys_Parts" deviceset="INA301A1IDGKR" device="" override_package3d_urn="urn:adsk.eagle:package:27074000/2" override_package_urn="urn:adsk.eagle:footprint:27074001/1"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -9307,8 +9289,8 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <attribute name="VALUE" x="307.34" y="176.53" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
 <instance part="J4" gate="G$1" x="27.94" y="198.12" smashed="yes" rot="MR0">
-<attribute name="NAME" x="11.43" y="205.74" size="1.778" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="11.43" y="203.2" size="1.778" layer="96" rot="MR0" align="center-left"/>
+<attribute name="NAME" x="13.97" y="205.74" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="VALUE" x="13.97" y="203.2" size="1.778" layer="96" rot="MR180" align="center-left"/>
 </instance>
 <instance part="GND6" gate="1" x="30.48" y="170.18" smashed="yes">
 <attribute name="VALUE" x="27.94" y="167.64" size="1.778" layer="96"/>
@@ -10046,7 +10028,7 @@ Source: &lt;a href="https://www.phoenixcontact.com/online/portal/gb?uri=pxc-oc-i
 <net name="W_PIN" class="0">
 <segment>
 <wire x1="312.42" y1="187.96" x2="276.86" y2="187.96" width="0.1524" layer="91"/>
-<label x="281.94" y="187.96" size="1.778" layer="95"/>
+<label x="304.8" y="187.96" size="1.778" layer="95"/>
 <pinref part="IC3" gate="G$1" pin="IO5"/>
 </segment>
 <segment>
