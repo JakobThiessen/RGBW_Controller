@@ -2,8 +2,8 @@
 
 
 <p float="left">
-  <img src="/hardware/eagle/eagleUp/main_SMD_FET_a.png" width="500" />
-  <img src="/hardware/eagle/eagleUp/main_SMD_FET_b.png" width="500" />
+  <img src="/hardware/eagle/eagleUp/main_SMD_FET_a.png" width="400" />
+  <img src="/hardware/eagle/eagleUp/main_SMD_FET_b.png" width="400" />
 </p>
 
 
