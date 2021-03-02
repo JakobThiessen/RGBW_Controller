@@ -2,8 +2,11 @@
 
 ![image info](./hardware/eagle/eagleUp/main_SMD_FET_a.png )
 
-![image info](./hardware/eagle/eagleUp/main_SMD_FET_top.png )
-![image info](./hardware/eagle/eagleUp/main_SMD_FET_bot.png )
+
+Top side                    |  Bottom side
+-----------------------:|:-------------------------:
+![image info](./hardware/eagle/eagleUp/main_SMD_FET_top.png ) |  ![image info](./hardware/eagle/eagleUp/main_SMD_FET_bot.png )
+
 
 ## Version mit PCA9685
 
